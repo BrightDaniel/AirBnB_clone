@@ -1,0 +1,29 @@
+/*
+ * === Filters style ===
+ */
+
+/* Filters style */
+.filters {
+    background-color: #ffffff;
+    height: 70px;
+    width: 100%;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+}
+/* Search button style */
+.filters button{
+    
+    background: #ff5a5f;
+    border-radius: 4px;
+    border: none;
+    color: #ffffff;
+    float: right;
+    height: 48px;
+    width: 20%;
+    font-size: 18px;
+    margin: 12px 30px;
+}
+/*change opacity to 90% when the mouse is on the button*/
+.filters button:hover{
+    background-color: rgba(255, 90, 95, .9);
+}
